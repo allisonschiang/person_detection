@@ -1,0 +1,10 @@
+version: "2.0.5"
+description: "Person Detection IDF Component"
+url: "https://mycomponent.com"
+license: "Apache-2.0"
+
+# dependencies:
+#   idf:
+#     version: ">5.0.0"
+#   example/cmp:
+#     version: "^3.0.0"

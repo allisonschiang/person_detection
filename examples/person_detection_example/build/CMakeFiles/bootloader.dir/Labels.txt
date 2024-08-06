@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/host/person_detection/examples/person_detection_example/build/CMakeFiles/bootloader
+/host/person_detection/examples/person_detection_example/build/CMakeFiles/bootloader.rule
+/host/person_detection/examples/person_detection_example/build/CMakeFiles/bootloader-complete.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/host/person_detection/examples/person_detection_example/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

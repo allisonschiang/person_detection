@@ -1,0 +1,5 @@
+dependencies:
+  espressif/person_detection:
+    version: "*"
+
+    override_path: '../../../'

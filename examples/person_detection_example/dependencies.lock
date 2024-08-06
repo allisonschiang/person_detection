@@ -1,0 +1,15 @@
+dependencies:
+  espressif/person_detection:
+    component_hash: null
+    source:
+      path: /host/person_detection
+      type: local
+    version: 2.0.5
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 4.4.8
+manifest_hash: c2570c68421c1c2e1b4e9808ff4f8349d8ac996aae01c99fbe5adb833f7e0441
+target: esp32
+version: 1.0.0
