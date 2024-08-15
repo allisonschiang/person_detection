@@ -1,17 +1,13 @@
-targets:
-  - esp32
-
-name : "person_detection"
-
 dependencies:
+  espressif/esp32-camera: 
+    version: "~2.0.5"
   espressif/esp-tflite-micro:
     version: "^1.3.1"
-    #override_path: "../../../"
   idf:
     version: ">4.4.0"
 
-profiles:
-  default:
-    registry_url: "https://components-staging.espressif.com"
-    api_token: "4UacvCAjTEVBm82i_vvlnDw99mk_6_j2nS1u2p9HB8Uyjngu1cNykwNpbnaiIZKPBRDMlCVqQlm__gy1bu2-WQ"
-    default_namespace: "allisonschiang"
+# profiles:
+#   default:
+#     registry_url: "https://components-staging.espressif.com"
+#     api_token: "4UacvCAjTEVBm82i_vvlnDw99mk_6_j2nS1u2p9HB8Uyjngu1cNykwNpbnaiIZKPBRDMlCVqQlm__gy1bu2-WQ"
+#     default_namespace: "allisonschiang"

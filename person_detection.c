@@ -4,9 +4,13 @@
 #include "person_detection/main_functions.h"
 
 //set up model, tensor_arena, micro_op_resolver, 
+void setup_model(){
+    setup();
+
+}
+
 bool get_person_score(float *ptr)
 {
-    setup();
     loop(ptr); 
 
     if (*ptr == -1.0f){
